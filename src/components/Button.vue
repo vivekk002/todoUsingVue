@@ -1,8 +1,8 @@
 <template>
 
-    <button class="button">Submit</button>
+    <button class="button" @click="$emit('click')" >Submit</button>
 </template>
 
 <script setup>
-
+defineEmits(["click"])
 </script>
